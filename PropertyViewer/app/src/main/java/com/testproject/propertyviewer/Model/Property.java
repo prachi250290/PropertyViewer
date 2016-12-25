@@ -44,6 +44,12 @@ public class Property {
     @SerializedName("developer_logo_file")
     private String developerImage;
 
+    @SerializedName("Map_Latitude")
+    private String latitude;
+
+    @SerializedName("Map_Longitude")
+    private String longitude;
+
     public String getName() {
         return name;
     }
@@ -138,5 +144,21 @@ public class Property {
 
     public void setDeveloperImage(String developerImage) {
         this.developerImage = developerImage;
+    }
+
+    public String getLatitude() {
+        return latitude;
+    }
+
+    public void setLatitude(String latitude) {
+        this.latitude = latitude;
+    }
+
+    public String getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(String longitude) {
+        this.longitude = longitude;
     }
 }

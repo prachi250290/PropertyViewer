@@ -22,7 +22,7 @@
             android:padding="@dimen/textview_padding_5"
             android:textStyle="bold"
             android:textSize="14sp"
-            android:textColor="#0101ee"/>
+            android:textColor="@color/global_blue"/>
 
         <TextView
             android:id="@+id/property_row_area_textview"
@@ -38,7 +38,6 @@
             android:layout_height="wrap_content"
             android:textStyle="italic"
             android:padding="@dimen/textview_padding_5"
-            android:layout_alignParentRight="true"
             android:layout_marginTop="50dp"
             android:textColor="#62CC04"/>
 

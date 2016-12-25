@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">PropertyViewer</string>
     <string name="fetching_properties_msg">Getting the best places for you...</string>
+    <string name="facebook_app_id">241223542980511</string>
 </resources>

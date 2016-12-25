@@ -37,12 +37,20 @@ public class PropertyListAdapter extends RecyclerView.Adapter<PropertyListAdapte
 
     @Override
     public void onBindViewHolder(PropertyViewHolder holder, int position) {
-        Property property = propertyList.get(position);
+        final Property property = propertyList.get(position);
         holder.name.setText(property.getName());
         holder.area.setText(property.getArea());
         holder.price.setText("Rs. " + property.getMinPrice());
 
         Picasso.with(context).load(property.getImage()).into(holder.image);
+
+
+        holder.area.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Utility.loadMap(context, property.getLatitude(), property.getLongitude());
+            }
+        });
 
     }
 

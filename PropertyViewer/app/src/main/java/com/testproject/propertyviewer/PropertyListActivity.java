@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.squareup.picasso.Picasso;
@@ -118,6 +119,7 @@ public class PropertyListActivity extends Activity {
 
                     } else {
                         //Handle failure
+                        Toast.makeText(PropertyListActivity.this, "No Properties found", Toast.LENGTH_SHORT).show();
                     }
                 }
             }
