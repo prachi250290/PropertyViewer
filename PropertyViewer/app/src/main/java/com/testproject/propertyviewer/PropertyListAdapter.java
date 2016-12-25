@@ -21,7 +21,6 @@ public class PropertyListAdapter extends RecyclerView.Adapter<PropertyListAdapte
 
     private List<Property> propertyList;
     private Context context;
-    private final static String DATE_FORMAT = "yyyy-MM-dd'T'HH:mm:ss'Z'";
 
     public PropertyListAdapter(List<Property> propertyList, Context context) {
         this.propertyList = propertyList;
@@ -41,7 +40,7 @@ public class PropertyListAdapter extends RecyclerView.Adapter<PropertyListAdapte
         Property property = propertyList.get(position);
         holder.name.setText(property.getName());
         holder.area.setText(property.getArea());
-        holder.price.setText(property.getMinPrice());
+        holder.price.setText("Rs. " + property.getMinPrice());
 
         Picasso.with(context).load(property.getImage()).into(holder.image);
 

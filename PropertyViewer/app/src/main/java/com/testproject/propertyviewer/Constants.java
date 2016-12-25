@@ -12,11 +12,23 @@ public class Constants {
     public static final String QUERY_PARAM_POSITION_VALUE = "Budget,Location,";
     public static final String QUERY_PARAM_BUDGET = "budget";
 
+    public static final String PARAM_GOOGLE_ID = "google_id";
+    public static final String PARAM_EMAIL_ADDRESS = "email_address";
 
-    public static final String INTENT_KEY_PROPERTY_TITLE = "title";
-    public static final String INTENT_KE_PROPERTY_DESCRIPTION = "description";
+
+    public static final String SHARED_PREFERENCE_USER_DETAILS = "User_Details";
+
+    public static final String SHARED_PREFERENCE_TOKEN = "token";
+
+    public static final String INTENT_KEY_PLACE = "place";
+    public static final String INTENT_KEY_BUDGET = "budget";
+
     public static final String INTENT_KEY_PROPERTY_NAME = "name";
-    public static final String INTENT_KEY_PROPERTY_URL = "avatarurl";
+    public static final String INTENT_KEY_PROPERTY_IMAGE = "propertyImage";
+    public static final String INTENT_KEY_PROPERTY_DESCRIPTION = "propertyDescription";
+    public static final String INTENT_KEY_PROPERTY_DEVELOPER_NAME = "developerName";
+    public static final String INTENT_KEY_PROPERTY_DEVELOPER_IMAGE = "developerImage";
+
 
 
 

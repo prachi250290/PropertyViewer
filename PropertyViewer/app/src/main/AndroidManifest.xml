@@ -18,7 +18,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".PropertyListActivity" />
-        <activity android:name=".PropertyDetailActivity"></activity>
+        <activity android:name=".PropertyDetailActivity" />
+        <activity android:name=".SearchOptionsActivity"></activity>
     </application>
 
 </manifest>

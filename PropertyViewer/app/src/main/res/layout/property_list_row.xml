@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:padding="@dimen/property_view_padding">
 
@@ -21,13 +21,15 @@
             android:layout_height="wrap_content"
             android:padding="@dimen/textview_padding_5"
             android:textStyle="bold"
-            android:textSize="18sp"/>
+            android:textSize="14sp"
+            android:textColor="#0101ee"/>
 
         <TextView
             android:id="@+id/property_row_area_textview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="@dimen/textview_padding_5"
+            android:textSize="12sp"
             android:layout_below="@id/property_row_name_textview"/>
 
         <TextView
@@ -36,7 +38,9 @@
             android:layout_height="wrap_content"
             android:textStyle="italic"
             android:padding="@dimen/textview_padding_5"
-            android:layout_alignParentRight="true"/>
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="50dp"
+            android:textColor="#62CC04"/>
 
     </RelativeLayout>
 

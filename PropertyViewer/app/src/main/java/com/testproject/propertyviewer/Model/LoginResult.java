@@ -8,14 +8,14 @@ import java.util.ArrayList;
  * Created by prachi on 25/12/16.
  */
 
-public class PropertyListing {
+public class LoginResult {
 
     private String msg;
 
     private int status;
 
     @SerializedName("data")
-    private ArrayList<Property> properties;
+    private Session session;
 
     public String getMsg() {
         return msg;
@@ -33,14 +33,12 @@ public class PropertyListing {
         this.status = status;
     }
 
-    public ArrayList<Property> getProperties() {
-        return properties;
+    public Session getSession() {
+        return session;
     }
 
-    public void setProperties(ArrayList<Property> properties) {
-        this.properties = properties;
+    public void setSession(Session session) {
+        this.session = session;
     }
-
-
 
 }
