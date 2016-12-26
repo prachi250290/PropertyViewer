@@ -54,8 +54,7 @@
             android:layout_height="50dp"
             android:layout_marginLeft="@dimen/margin_20"
             android:layout_marginTop="@dimen/margin_5"
-            android:textColor="@android:color/black"
-            android:drawablePadding="@dimen/padding_2"/>
+            android:textColor="@android:color/black"/>
 
         <TextView
             android:id="@+id/property_detail_devname_textview"

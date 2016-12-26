@@ -40,7 +40,7 @@ public class PropertyListAdapter extends RecyclerView.Adapter<PropertyListAdapte
         final Property property = propertyList.get(position);
         holder.name.setText(property.getName());
         holder.area.setText(property.getArea());
-        holder.price.setText("Rs. " + property.getMinPrice());
+        holder.price.setText(context.getString(R.string.rupees) + property.getMinPrice());
 
         Picasso.with(context).load(property.getImage()).into(holder.image);
 

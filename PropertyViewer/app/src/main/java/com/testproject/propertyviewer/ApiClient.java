@@ -18,7 +18,6 @@ public class ApiClient {
     public static final String BASE_URL = "http://api.hdfcred.net";
     private static Retrofit retrofit = null;
 
-
     public static Retrofit getClient(final HashMap<String, String> headers) {
 
 

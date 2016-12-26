@@ -103,7 +103,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         LoginResult loginResult = response.body();
 
                         //Save token
-                        SharedPreferenceManager.getInstance(MainActivity.this).saveKeyValue(Constants.SHARED_PREFERENCE_TOKEN, loginResult.getSession().getTokenId());
+                        //SharedPreferenceManager.getInstance(MainActivity.this).saveKeyValue(Constants.SHARED_PREFERENCE_TOKEN, loginResult.getSession().getTokenId());
+                        SharedPreferenceManager.getInstance(MainActivity.this).saveKeyValue(Constants.SHARED_PREFERENCE_TOKEN, "1734044778585e86b27901e");
+
                         openSearchOptionsScreen();
                         finish();
 
