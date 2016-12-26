@@ -14,7 +14,6 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.google.gson.Gson;
-import com.squareup.picasso.Picasso;
 import com.testproject.propertyviewer.Model.Property;
 import com.testproject.propertyviewer.Model.PropertyListing;
 

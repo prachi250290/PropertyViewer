@@ -2,8 +2,6 @@ package com.testproject.propertyviewer.Model;
 
 import com.google.gson.annotations.SerializedName;
 
-import java.util.ArrayList;
-
 /**
  * Created by prachi on 25/12/16.
  */
